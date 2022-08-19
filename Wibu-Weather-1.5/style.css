@@ -1,0 +1,135 @@
+.clock {
+  color: #17D4FE;
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+img.logo-brand{
+  width: 30%;
+}
+
+.searching-bar{
+  top: 0;
+  left: 0;
+}
+
+.form-outline{
+  flex-basis: 50%;
+}
+
+.main-banner img{
+  height: 50vh;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+}
+
+button.btn{
+  transition: 300ms;
+}
+
+button.btn:focus{
+  box-shadow: none !important;
+}
+
+button.btn:hover{
+  background: transparent;
+  transform: scale(1.1);
+}
+
+.form-control{
+  border-radius: 25px !important;
+}
+
+datalist {
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 0 0 7px 7px;
+  border-top: none;
+  font-family: sans-serif;
+  padding: 5px;
+  max-height: 10rem;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+option {
+  background-color: white;
+  padding: 4px;
+  color: blue;
+  margin-bottom: 1px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+option:hover{
+  background-color: lightblue;
+}
+
+/* .search-btn{
+  border-radius: 0 25px 25px 0 !important;
+  padding: 0 5% !important;
+} */
+
+.shadow-outside{
+  box-shadow: 0px 10px 13px -7px #00000080;
+}
+
+.coFounder .card{
+  transition: 400ms;
+}
+
+.coFounder .card:hover{
+  transform: translateY(-20px);
+  box-shadow: 5px 0px 21px -7px #00000080,
+              -5px 47px 44px -7px #00000080;
+}
+
+img.card-img-top {
+    height: 44vh;
+    object-fit: cover;
+}
+
+/* footer */
+.ft-title{
+  color: #21244d;
+  font-size: 20px;
+}
+.ft-contact a{
+  text-decoration: none !important;
+}
+
+@media (min-width: 768px) {
+  .clock{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand p {
+    font-size: 30px;
+  }
+
+  .main-banner img{
+    height: auto;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .clock{
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
+  .navbar-brand p {
+    font-size: 25px;
+  }
+}

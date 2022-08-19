@@ -1,0 +1,294 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f6f9ff;
+  color: #444444;
+}
+
+a {
+  color: #4154f1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #717ff5;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+#main {
+  padding: 20px 30px;
+  transition: all 0.3s;
+}
+@media (max-width: 1199px) {
+  #main {
+    padding: 20px;
+  }
+}
+
+/* Navbar */
+@media (min-width: 768px) {
+  .clock{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand p {
+    font-size: 30px;
+  }
+
+  .main-banner img{
+    height: auto;
+  }
+
+  img.icon-decor.col-md-6 {
+    width: 31%;
+  }
+
+  .info1{
+    text-align: center;
+    margin-left: 0px!important;
+  }
+
+  .temp{
+    text-align: center;
+  }
+
+  .forcast{
+    margin-top: 0!important;
+  }
+
+  .mr{
+    margin-top: 0px!important;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .clock{
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
+  .navbar-brand p {
+    font-size: 25px;
+  }
+}
+.clock {
+  color: #17D4FE;
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+img.logo-brand{
+  width: 30%;
+}
+
+@media(max-width: 474px){
+  .icon-decor{
+    width: 50%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Page Title
+--------------------------------------------------------------*/
+.pagetitle {
+  margin-bottom: 10px;
+}
+.pagetitle h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #012970;
+}
+
+/* Card */
+.card {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.card-header, .card-footer {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 15px;
+}
+
+.card-title {
+  padding: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+}
+.card-title span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 400;
+}
+.card-body {
+  padding: 0 20px 20px 20px;
+}
+
+.card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  color: #899bbd;
+  font-weight: 600;
+}
+.breadcrumb a {
+  color: #899bbd;
+  transition: 0.3s;
+}
+.breadcrumb a:hover {
+  color: #51678f;
+}
+.breadcrumb .breadcrumb-item::before {
+  color: #899bbd;
+}
+.breadcrumb .active {
+  color: #51678f;
+  font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Dashboard
+--------------------------------------------------------------*/
+/* News & Updates */
+.dashboard .news .post-item + .post-item {
+  margin-top: 15px;
+}
+.dashboard .news img {
+  width: 80px;
+  float: left;
+  border-radius: 5px;
+}
+.dashboard .news h4 {
+  font-size: 15px;
+  margin-left: 95px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.dashboard .news h4 a {
+  color: #012970;
+  transition: 0.3s;
+}
+.dashboard .news h4 a:hover {
+  color: #4154f1;
+}
+.dashboard .news p {
+  font-size: 14px;
+  color: #777777;
+  margin-left: 95px;
+}
+
+.temp{
+  font-size: 70px;
+  margin-top: 70px;
+}
+
+.info1 {
+    margin-left: 40px;
+}
+
+span.temp-decor {
+    font-size: 35px;
+}
+
+.mr1{
+  margin-top: 150px;
+}
+
+.mr {
+    margin-top: 150px;
+}
+
+.bd{
+  border-radius: 20px;
+  background: #2d99ae;
+}
+
+.top-decor {
+    background: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.top-text{
+    font-size: 20px;
+    color: #00B4D8;
+    padding:10px;
+}
+
+.forecast {
+    color: white;
+}
+
+/* column 5 */
+.icon{
+  text-align: center;
+}
+
+.title-decor {
+  color: white;
+  background: #2d99ae;
+  position: absolute;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.col4-decor{
+  box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
+  border-radius: 20px;
+}
+
+.ucard-decor {
+    margin-top: 60px;
+}
+
+.col4-decor:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.4s;
+}
+
+.noidung {
+    padding: 10px 20px;
+}
+
+.date-col4 {
+  margin: 5px 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* footer */
+.ft-title{
+  color: #21244d;
+  font-size: 20px;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet"/>
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-xl container-fluid">
+        <a class="navbar-brand d-flex align-items-center text-center" href="#">
+          <img src="images/logo-brand.png" class="logo-brand align-items-center justify-content-center h-100" alt="">
+          <p class="m-0 ms-2 text-wrap flex-fill">The Wibu Weather</p>
+        </a>
+        <div id="MyClockDisplay" class="clock text-center"></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-lg-flex justify-content-end" style="font-family: 'Roboto',sans-serif" id="navbarNav">
+          <ul class="navbar-nav align-items-end ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://openweathermap.org/current">Sources</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-banner position-relative">
+      <img src="images/bg.jpg" class="w-100" alt="">
+      <div class="searching-bar position-absolute w-100 h-100 d-flex align-items-center">
+        <div class="container">
+          <h2 class="text-center">Welcome to Wibu Weather</h2>
+          <div class="d-flex">
+            <div class="w-100 position-relative">
+              <input class="form-control" autocomplete="off" role="combobox" list="" id="input" name="country" placeholder="Type to search...">
+              <div class="position-absolute w-100 px-3">
+                <datalist id="country" role="listbox"></datalist>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="coFounder mt-4">
+      <div class="container">
+        <h2 class="text-center">Co-Founder Of Weather Wibu</h2>
+        <div class="row mt-4">
+          <div class="col-lg-4 col-md-6 p-3 mb-3">
+            <div class="card shadow-outside">
+              <img src="images/MinhDz.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-top text-center">
+                  <h4 class="card-text">Châu Nhật Minh</h4>
+                  <p class="card-text">2059028</p>
+                </div>
+                <hr>
+                <div class="title-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="d-flex">
+                  <button class="btn btn-outline-dark w-100 text-dark mx-3" type="button" name="button">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 p-3 mb-3">
+            <div class="card shadow-outside">
+              <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/75199938_2407558536127707_6740549488550608896_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=sjfZ6rzMcDUAX9Ltg6Z&_nc_ht=scontent-hkg4-1.xx&oh=00_AT83ebY4lOPlEp96obpAGhgv27KdaBMLoQiXRmIuux5vRQ&oe=62647D52" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-top text-center">
+                  <h4 class="card-text">Đặng Tuấn Kiệt</h4>
+                  <p class="card-text">2059021</p>
+                </div>
+                <hr>
+                <div class="title-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="d-flex">
+                  <button class="btn btn-outline-dark w-100 text-dark mx-3" type="button" name="button">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 p-3 mb-3">
+            <div class="card shadow-outside">
+              <img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.6435-9/185927794_1863633317128899_1638589398419256837_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=bJawt6G2Z9MAX8SJHjx&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT_tHS3IaowdZYKCVwDlW1_P9WDjWoHdubY1svWeyZXJCA&oe=626420B0" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-top text-center">
+                  <h4 class="card-text">Phan Phước Tân</h4>
+                  <p class="card-text">2059050</p>
+                </div>
+                <hr>
+                <div class="title-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="d-flex">
+                  <button class="btn btn-outline-dark w-100 text-dark mx-3" type="button" name="button">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 p-3 mb-3">
+            <div class="card shadow-outside">
+              <img src="images/HungDz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-top text-center">
+                  <h4 class="card-text">Văn Công Gia Hưng</h4>
+                  <p class="card-text">2059017</p>
+                </div>
+                <hr>
+                <div class="title-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="d-flex">
+                  <button class="btn btn-outline-dark w-100 text-dark mx-3" type="button" name="button">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 p-3 mb-3">
+            <div class="card shadow-outside">
+              <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.15752-9/275327473_368603415174675_3303628418288512630_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=ae9488&_nc_ohc=3_Rzgs87R40AX9vUTAl&_nc_ht=scontent.fsgn2-3.fna&oh=03_AVL6ltt3Xzh-2_PZI8RsuyMHCamrMPr5szlXDXGQUmSSig&oe=62646BA3" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-top text-center">
+                  <h4 class="card-text">Nguyễn Trương Thanh Tâm</h4>
+                  <p class="card-text">2059053</p>
+                </div>
+                <hr>
+                <div class="title-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="d-flex">
+                  <button class="btn btn-outline-dark w-100 text-dark mx-3" type="button" name="button">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+              <!-- ======= Footer ======= -->
+  <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ft-contact">
+            <h6 class="text-uppercase mb-4 fw-bold ft-title">The Wibu Weather</h6>
+            <p>
+              A simple Weather Forecast Website for Wibu
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 ft-contact">
+            <h6 class="text-uppercase mb-4 fw-bold ft-title">Links</h6>
+            <p>
+              <a href="" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="" class="text-white">About</a>
+            </p>
+            <p>
+              <a href="" class="text-white">FAQ</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ft-contact">
+            <h6 class="text-uppercase mb-4 fw-bold ft-title">API Sources</h6>
+            <p>
+              <a href="https://openweathermap.org/api" class="text-white">openweathermap</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto my-3">
+            <h6 class="text-uppercase mb-4 fw-bold ft-title">Contact us</h6>
+            <div class="ft-icon">
+              <!-- Facebook -->
+              <a class="btn btn-primary rounded-circle m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+              <!-- Twitter -->
+              <a class="btn btn-primary rounded-circle m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+              <!-- Instagram -->
+              <a class="btn btn-primary rounded-circle m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+              <!-- GitHub -->
+              <a class="btn btn-primary rounded-circle m-1" style="background-color: black" href="#!" role="button"><i class="fab fa-github"></i></a>
+              <!-- Youtube -->
+              <a class="btn btn-primary rounded-circle m-1" style="background-color: red" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright by Itec Community:
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
